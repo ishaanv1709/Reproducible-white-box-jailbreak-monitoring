@@ -195,10 +195,4 @@ tqdm>=4.66
 einops>=0.7
 ```
 
----
 
-## Notes
-
-- If you have `torchao` installed, uninstall it before running. It breaks the transformers import chain on some setups: `pip uninstall torchao -y`
-- Models are downloaded automatically from HuggingFace on first run
-- All results in the `results/` folder are from runs on a CUDA GPU with the exact code in this repo
